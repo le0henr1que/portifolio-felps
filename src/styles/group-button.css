@@ -1,0 +1,24 @@
+.group-button-root {
+  @apply gap-2 flex flex-col items-center justify-between w-full text-center;
+}
+.group-button-list {
+  @apply flex flex-row items-center text-center justify-between w-full mb-[24px];
+}
+
+.group-button-list .group-button:first-child {
+  @apply border-l rounded-l-4;
+}
+
+.group-button-list .group-button:last-child {
+  @apply border-r rounded-r-4;
+}
+
+.group-button {
+  @apply text-neutral-900 text-[16px] leading-heading-6 font-bold w-full m-0 p-8 px-20 flex justify-center text-center items-center border-[1px] border-l-[0px] border-solid border-neutral-200;
+}
+.group-button[data-state="active"] {
+  @apply bg-brand-600 text-white border-brand-600;
+}
+
+.group-button-content {
+}

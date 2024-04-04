@@ -1,0 +1,68 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.grid {
+  @apply flex flex-col items-center rounded-8 border-neutral-100 border-solid border-[1px];
+}
+
+.secondary-heading-xl {
+  @apply text-[32px] font-bold text-neutral-900;
+}
+
+.secondary-heading-lg {
+  @apply text-[28px] font-bold text-neutral-900;
+}
+
+.secondary-heading-md {
+  @apply text-[24px] font-bold text-neutral-900;
+}
+
+.secondary-heading-sm {
+  @apply text-[20px] font-bold text-neutral-900;
+}
+
+.secondary-heading-xs {
+  @apply text-[16px] font-bold text-neutral-900;
+}
+
+.primary-heading-xl {
+  @apply text-[58px] font-bold text-neutral-900;
+}
+
+.primary-heading-lg {
+  @apply text-[42px] font-bold text-neutral-900;
+}
+
+.primary-heading-md {
+  @apply text-[34px] font-bold text-neutral-900;
+}
+
+.primary-heading-sm {
+  @apply text-[26px] font-bold text-neutral-900;
+}
+
+.primary-heading-xs {
+  @apply text-[18px] font-bold text-neutral-900;
+}
