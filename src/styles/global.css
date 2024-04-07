@@ -30,72 +30,7 @@ img {
   cursor: url("/cursor.png"), auto;
 }
 
-/* Extra small devices (phones, 375px and up) */
-@media (min-width: 375px) {
-  .main-2 {
-    width: 100%;
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-  .grid-car-responsive {
-    justify-content: center;
-  }
-  .about-responsive {
-    flex-direction: column;
-  }
-  .about-image-responsive {
-    display: none;
-  }
-  .tex-introduction-responsive {
-    width: 100%;
-  }
-  .image-responsive {
-    display: none;
-  }
-  .introduction-responsive {
-    flex-direction: column;
-
-    text-align: center;
-  }
-  .buttons-responsive {
-    width: 100%;
-    justify-content: center;
-  }
-}
-
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-  /* Insira seu CSS aqui */
-  .main-2 {
-    width: 100%;
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-  .grid-car-responsive {
-    justify-content: center;
-  }
-  .about-responsive {
-    flex-direction: column;
-  }
-  .about-image-responsive {
-    display: none;
-  }
-  .tex-introduction-responsive {
-    width: 100%;
-  }
-  .image-responsive {
-    display: none;
-  }
-  .introduction-responsive {
-    flex-direction: column;
-
-    text-align: center;
-  }
-  .buttons-responsive {
-    width: 100%;
-    justify-content: center;
-  }
-}
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 992px) {
