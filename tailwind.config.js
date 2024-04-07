@@ -13,6 +13,7 @@ module.exports = {
           "100%": { transform: "translateY(0px)" },
         },
       },
+
       boxShadow: {
         custom: "0px 8px 12px 0px rgba(207, 215, 226, 0.60)",
       },
@@ -22,13 +23,13 @@ module.exports = {
       fontFamily: {
         "red-hat-display": ["Red Hat Display", "sans-serif"],
       },
-      // screens: {
-      //   xs: "375px",
-      //   sm: "576px",
-      //   md: "768px",
-      //   lg: "992px",
-      //   xl: "1600px",
-      // },
+      screens: {
+        xs: "375px",
+        sm: "576px",
+        md: "768px",
+        lg: "992px",
+        xl: "1600px",
+      },
       colors: {
         "brand-100": "#d7eeff",
         "brand-200": "#bde4ff",

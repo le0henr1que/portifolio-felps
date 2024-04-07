@@ -3,7 +3,7 @@ import { FloatingImage } from "./components/Floating-image";
 import { Link } from "react-scroll";
 
 const introductionStyle = convertedStyle([
-  "w-full flex items-center justify-between",
+  "introduction-responsive w-full flex items-center justify-between",
 ]);
 const linkStyle = convertedStyle([
   "body-medium-md text-current no-underline cursor-pointer",
@@ -12,7 +12,7 @@ const linkStyle = convertedStyle([
 function Introduction() {
   return (
     <div id="introduction" className={introductionStyle}>
-      <div className="flex flex-col w-[487px] gap-[32px]">
+      <div className=" flex flex-col w-[487px] gap-[32px]">
         <div>
           <div className="body-medium-xxl text-brand-600 mb-[4px]">
             UX/UI Designer
@@ -20,12 +20,12 @@ function Introduction() {
           <div className="primary-heading-xl text-neutral-900 mb-[8px]">
             Olá, meu nome é <span className="text-brand-600">Felipe Souza</span>
           </div>
-          <div className="text-neutral-500 body-regular-lg">
+          <div className="tex-introduction-responsive text-neutral-500 body-regular-lg">
             UX/UI Designer pleno, com experiência em softwares personalizados,
             construção e manutenção de Design System e criação de sites.
           </div>
         </div>
-        <div className="flex gap-[16px] w-[322px]">
+        <div className="buttons-responsive flex gap-[16px] w-[322px]">
           <Link
             activeClass="active"
             to="projects"

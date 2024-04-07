@@ -26,9 +26,9 @@ const aboutMe = [
 
 function About() {
   return (
-    <div id="about" className="flex  gap-[36px] mt-[64px]">
+    <div id="about" className="about-responsive flex gap-[36px] mt-[64px]">
       <div>
-        <div className="w-[405px] h-[424px] bg-[#D9D9D9] rounded-8"></div>
+        <div className="about-image-responsive w-[405px] h-[424px] bg-[#D9D9D9] rounded-8"></div>
       </div>
       <div className="w-full">
         <GroupButton.Root>

@@ -7,7 +7,7 @@ function GroupProjects({ type }) {
     type ? item.type === type : true
   );
   const divStyle = convertedStyle([
-    "flex w-full flex-wrap justify-start gap-[35px] align-start text-start mt-[56px]",
+    "grid-car-responsive flex w-full flex-wrap justify-start gap-[35px] align-start text-start mt-[56px]",
     {
       xs: "bg-[black]",
       sm: "bg-[green]",

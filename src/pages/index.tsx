@@ -8,7 +8,7 @@ import Techs from "../components/Techs/Techs";
 import { convertedStyle } from "../utils/convertedStyle";
 
 const screenMain = convertedStyle([
-  "w-full flex justify-center flex-col items-center mx-auto ",
+  " w-full flex justify-center flex-col items-center ",
   {
     xs: "",
     sm: "",
@@ -18,12 +18,13 @@ const screenMain = convertedStyle([
 ]);
 
 const defaultDiv2 = convertedStyle([
-  "max-w-[1112px]  ",
+  "main-2",
   {
     xs: "",
     sm: "",
     md: "",
-    lg: " w-full",
+    lg: "w-full",
+    xl: "w-[1112px]",
   },
 ]);
 
@@ -37,9 +38,7 @@ export default function Home() {
           <Introduction />
 
           <Techs />
-
           <About />
-
           <Projects />
         </div>
 

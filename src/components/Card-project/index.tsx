@@ -14,7 +14,7 @@ export default function CardProject({
 }: ProjectProps) {
   return (
     <div className="grid p-16 gap-16 w-[347px] h-[auto]">
-      <div className="bg-black w-[315px] h-[226px] rounded-8">
+      <div className="bg-black w-full h-[226px] rounded-8">
         <img src={banner} alt={name} />
       </div>
       <div className="flex flex-col justify-start items-start">
