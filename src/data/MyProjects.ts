@@ -1,4 +1,4 @@
-import { projectType } from "../../enum/project-type";
+import { projectType } from "../enum/project-type";
 
 export const myProjects = [
   {

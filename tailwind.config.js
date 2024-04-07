@@ -22,13 +22,13 @@ module.exports = {
       fontFamily: {
         "red-hat-display": ["Red Hat Display", "sans-serif"],
       },
-      screens: {
-        xs: "375px",
-        sm: "576px",
-        md: "768px",
-        lg: "992px",
-        xl: "1600px",
-      },
+      // screens: {
+      //   xs: "375px",
+      //   sm: "576px",
+      //   md: "768px",
+      //   lg: "992px",
+      //   xl: "1600px",
+      // },
       colors: {
         "brand-100": "#d7eeff",
         "brand-200": "#bde4ff",

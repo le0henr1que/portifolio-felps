@@ -14,7 +14,7 @@
 }
 
 .group-button {
-  @apply text-neutral-900 text-[16px] leading-heading-6 font-bold w-full m-0 p-8 px-20 flex justify-center text-center items-center border-[1px] border-l-[0px] border-solid border-neutral-200;
+  @apply text-neutral-900 text-[px] leading-heading-6 font-bold w-full m-0 p-8 px-20 flex justify-center text-center items-center border-[1px] border-l-[0px] border-solid border-neutral-200 whitespace-nowrap;
 }
 .group-button[data-state="active"] {
   @apply bg-brand-600 text-white border-brand-600;

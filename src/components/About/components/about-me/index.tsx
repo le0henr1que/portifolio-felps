@@ -10,8 +10,22 @@ function AboutMe() {
             <div className="body-regular-lg">UX/UI Designer</div>
           </div>
           <div className="flex gap-[4px]">
-            <>Icon 1</>
-            <>Icon 2</>
+            <div className="flex items-center gap-[4px]">
+              <a
+                href="https://www.behance.net/felipedasilv13"
+                target="_blank"
+                className="m-4"
+              >
+                <img src="/behance.svg" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/felipesouza12/"
+                target="_blank"
+                className="m-4"
+              >
+                <img src="/linkedin-icon-brand.svg" />
+              </a>
+            </div>
           </div>
         </div>
         <div className="body-regular-lg">
