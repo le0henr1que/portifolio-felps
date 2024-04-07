@@ -1,0 +1,29 @@
+.card {
+  @apply flex whitespace-nowrap bg-brand-100 text-brand-600 rounded-4 gap-[4px] p-8 px-16 justify-center items-center w-[auto] h-[40px];
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+  display: flex !important;
+  gap: 16px !important;
+  cursor: pointer;
+}
+
+.swiper-slide {
+  display: flex !important;
+  flex-direction: row;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}

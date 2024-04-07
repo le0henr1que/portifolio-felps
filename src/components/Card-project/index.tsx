@@ -13,13 +13,16 @@ export default function CardProject({
   banner,
 }: ProjectProps) {
   return (
-    <div className="grid p-16 gap-16 w-[347px] h-[488px]">
-      <div className="bg-black w-[315px] h-[226px]">
+    <div className="grid p-16 gap-16 w-[347px] h-[auto]">
+      <div className="bg-black w-[315px] h-[226px] rounded-8">
         <img src={banner} alt={name} />
       </div>
       <div className="flex flex-col justify-start items-start">
         <div className="w-full primary-heading-sm text-start">{name}</div>
-        <div className="w-full text-16px text-start">{description}</div>
+        <div className="w-full text-start body-regular-md">{description}</div>
+      </div>
+      <div className="w-full">
+        <button className="btn-primary large">Visualizar Case</button>
       </div>
     </div>
   );

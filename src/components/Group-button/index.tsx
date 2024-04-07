@@ -1,9 +1,11 @@
-import TabGroup from "./TabGroup";
+import TabContent from "./TabContent";
+import TabList from "./TabList";
 import TabRoot from "./TabRoot";
 
 const GroupButton = {
   Root: TabRoot,
-  Group: TabGroup,
+  Content: TabContent,
+  List: TabList,
 };
 
 export default GroupButton;

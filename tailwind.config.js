@@ -6,10 +6,24 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      keyframes: {
+        float: {
+          "0%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-30px)" },
+          "100%": { transform: "translateY(0px)" },
+        },
+      },
+      boxShadow: {
+        custom: "0px 8px 12px 0px rgba(207, 215, 226, 0.60)",
+      },
+      animation: {
+        float: "float 3s ease-in-out infinite",
+      },
       fontFamily: {
         "red-hat-display": ["Red Hat Display", "sans-serif"],
       },
       screens: {
+        xs: "375px",
         sm: "576px",
         md: "768px",
         lg: "992px",

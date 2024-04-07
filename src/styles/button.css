@@ -1,6 +1,6 @@
 /* configuration primary button */
 .btn-primary {
-  @apply flex text-[16px] leading-heading-6 font-bold items-center justify-center p-12 px-20 rounded-4 bg-brand-600 text-neutral-0 w-full;
+  @apply whitespace-nowrap flex text-[16px] leading-heading-6 font-bold items-center justify-center p-12 px-20 rounded-4 bg-brand-600 text-neutral-0 w-full;
 }
 .btn-primary:not(:disabled):hover {
   @apply bg-brand-800;
@@ -10,7 +10,7 @@
 }
 
 .btn-primary-outlined {
-  @apply flex text-[16px] leading-heading-6 font-bold items-center justify-center p-12 px-20 rounded-4 text-brand-600 w-full border-[1px] border-brand-600;
+  @apply whitespace-nowrap flex text-[16px] leading-heading-6 font-bold items-center justify-center p-12 px-20 rounded-4 text-brand-600 w-full border-[1px] border-brand-600;
 }
 
 .btn-primary-outlined:not(:disabled):hover {
@@ -22,7 +22,7 @@
 
 /* configuration secondary button */
 .btn-secondary {
-  @apply flex text-[16px] leading-heading-6 font-bold items-center justify-center p-12 px-20 rounded-4 bg-neutral-800 text-neutral-0 w-full;
+  @apply whitespace-nowrap flex text-[16px] leading-heading-6 font-bold items-center justify-center p-12 px-20 rounded-4 bg-neutral-800 text-neutral-0 w-full;
 }
 .btn-secondary:not(:disabled):hover {
   @apply bg-neutral-1000;
@@ -32,7 +32,7 @@
 }
 
 .btn-secondary-outlined {
-  @apply flex text-[16px] leading-heading-6 font-bold items-center justify-center p-12 px-20 rounded-4 text-neutral-900 w-full border-[1px] border-neutral-200;
+  @apply whitespace-nowrap flex text-[16px] leading-heading-6 font-bold items-center justify-center p-12 px-20 rounded-4 text-neutral-900 w-full border-[1px] border-neutral-200;
 }
 
 .btn-secondary-outlined:not(:disabled):hover {
@@ -43,7 +43,7 @@
 }
 
 .btn-text {
-  @apply text-[16px] leading-heading-6 font-medium flex leading-heading-6 font-bold items-center justify-center;
+  @apply whitespace-nowrap text-[16px] leading-heading-6 font-medium flex leading-heading-6 font-bold items-center justify-center;
 }
 .btn-text:not(:disabled):hover {
   @apply text-brand-600;

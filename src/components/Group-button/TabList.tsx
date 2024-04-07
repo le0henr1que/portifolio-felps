@@ -7,10 +7,10 @@ interface ITabs {
   content: React.ReactNode;
 }
 
-export default function TabGroup({ tabs }: { tabs: ITabs[] }) {
+export default function TabList({ tabs }: { tabs: ITabs[] }) {
   return (
     <>
-      <Tabs.List className="group-button-list" aria-label="">
+      <Tabs.List className="group-button-list flex-shrink-0 " aria-label="">
         {tabs.map((tab) => (
           <Tabs.Trigger
             className="group-button"
@@ -21,15 +21,6 @@ export default function TabGroup({ tabs }: { tabs: ITabs[] }) {
           </Tabs.Trigger>
         ))}
       </Tabs.List>
-      {tabs.map((tab) => (
-        <Tabs.Content
-          key={tab.value}
-          value={tab.value}
-          className="group-button-content"
-        >
-          {tab.content}
-        </Tabs.Content>
-      ))}
     </>
   );
 }
