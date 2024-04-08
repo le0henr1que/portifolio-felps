@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import About from "../components/About/About";
 import ContactMe from "../components/Contact-me/ContactMe";
 import Footer from "../components/Footer/Footer";
@@ -6,6 +7,7 @@ import Introduction from "../components/Introduction/Introduction";
 import Projects from "../components/Projects/Projects";
 import Techs from "../components/Techs/Techs";
 import { convertedStyle } from "../utils/convertedStyle";
+import { cursor, useCursor } from "react-cursor";
 
 const screenMain = convertedStyle([
   "main-1 w-full flex justify-center flex-col items-center ",
@@ -29,6 +31,10 @@ const defaultDiv2 = convertedStyle([
 ]);
 
 export default function Home() {
+  useEffect(() => {
+    document.body.style.cursor = "url(/cursor-custom.svg), auto";
+  }, []);
+
   return (
     <>
       <div className={screenMain}>
