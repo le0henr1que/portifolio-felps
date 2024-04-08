@@ -8,7 +8,7 @@ import Techs from "../components/Techs/Techs";
 import { convertedStyle } from "../utils/convertedStyle";
 
 const screenMain = convertedStyle([
-  " w-full flex justify-center flex-col items-center ",
+  "main-1 w-full flex justify-center flex-col items-center ",
   {
     xs: "",
     sm: "",
@@ -42,7 +42,7 @@ export default function Home() {
           <Projects />
         </div>
 
-        <ContactMe />
+        {/*<ContactMe />*/}
 
         <div className={defaultDiv2}>
           <div className="max-w-[1112px]">

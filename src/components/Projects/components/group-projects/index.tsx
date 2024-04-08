@@ -8,13 +8,6 @@ function GroupProjects({ type }) {
   );
   const divStyle = convertedStyle([
     "grid-car-responsive flex w-full flex-wrap justify-start gap-[35px] align-start text-start mt-[56px]",
-    {
-      xs: "bg-[black]",
-      sm: "bg-[green]",
-      md: "bg-[orange]",
-      lg: "bg-[red]",
-      xl: "bg-[red]",
-    },
   ]);
   return (
     <div className={divStyle}>

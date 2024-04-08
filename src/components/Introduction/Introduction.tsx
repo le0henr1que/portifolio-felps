@@ -12,7 +12,7 @@ const linkStyle = convertedStyle([
 function Introduction() {
   return (
     <div id="introduction" className={introductionStyle}>
-      <div className=" flex flex-col w-[487px] gap-[32px]">
+      <div className="introduction-responsive flex flex-col w-[487px] gap-[32px]">
         <div>
           <div className="body-medium-xxl text-brand-600 mb-[4px]">
             UX/UI Designer

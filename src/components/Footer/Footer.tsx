@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="w-full h-[113px] flex justify-between items-center">
+    <div className="footer-responsive w-full h-[113px] flex justify-between items-center">
       <div>
         <img src="./icon.svg" />
       </div>

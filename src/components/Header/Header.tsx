@@ -14,7 +14,7 @@ function Header() {
       <div>
         <img src="./icon.svg" />
       </div>
-      <div className="flex justify-between gap-[36px]">
+      <div className="burguer-response flex justify-between gap-[36px]">
         <Link
           activeClass="active"
           to="about"

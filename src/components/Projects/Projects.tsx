@@ -24,7 +24,7 @@ function Projects() {
     <div id="projects" className="mt-[72px]">
       <div>
         <GroupButton.Root>
-          <div className="w-full flex justify-between text-center items-center">
+          <div className="my-projects-responsive w-full flex justify-between text-center items-center">
             <div className="secondary-heading-xl text-neutral-900">
               Meus <span className="text-brand-600">Projetos</span>
             </div>
