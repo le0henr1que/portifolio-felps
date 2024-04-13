@@ -30,7 +30,10 @@ function Projects() {
             </div>
             <div>
               {" "}
-              <GroupButton.List tabs={tabProject} />
+              <GroupButton.List
+                className="group-button-list-projects flex-shrink-0 "
+                tabs={tabProject}
+              />
             </div>
           </div>
           <div>

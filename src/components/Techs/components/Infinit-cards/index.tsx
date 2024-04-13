@@ -1,48 +1,22 @@
-import { Swiper, SwiperSlide } from "swiper/react";
+// TechList.js
+import React, { useState, useEffect } from "react";
+import TechButton from "./components/TechButton";
 
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+const Carousel = ({ technologies }) => {
+  const [visibleTechnologies, setVisibleTechnologies] = useState([
+    ...technologies,
+    ...technologies,
+  ]);
 
-import { Autoplay } from "swiper/modules";
-
-export function Carousel({ items }: { items?: any[] }) {
   return (
-    <>
-      <Swiper
-        spaceBetween={16}
-        centeredSlides={true}
-        loop={true}
-        autoplay={{
-          delay: 1,
-          disableOnInteraction: false,
-        }}
-        speed={50000}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={false}
-        modules={[Autoplay]}
-        className="mySwiper"
-      >
-        <SwiperSlide>
-          {items?.map((item, index) => (
-            <div key={index} className="card" style={{ flex: "1 0 auto" }}>
-              {item.icon}
-              {item.title}
-            </div>
-          ))}
-        </SwiperSlide>
-        <SwiperSlide>
-          {" "}
-          {items?.map((item, index) => (
-            <div key={index} className="card" style={{ flex: "1 0 auto" }}>
-              {item.icon}
-              {item.title}
-            </div>
-          ))}
-        </SwiperSlide>
-      </Swiper>
-    </>
+    <div className="scroll-container">
+      <div className="scroll-content">
+        {visibleTechnologies.map((tech, index) => (
+          <TechButton key={index} title={tech.title} icon={tech.icon} />
+        ))}
+      </div>
+    </div>
   );
-}
+};
+
+export default Carousel;

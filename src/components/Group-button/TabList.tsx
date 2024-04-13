@@ -6,14 +6,19 @@ interface ITabs {
   label: string;
   content: React.ReactNode;
 }
-
-export default function TabList({ tabs }: { tabs: ITabs[] }) {
+export default function TabList({
+  tabs,
+  className,
+}: {
+  tabs: ITabs[];
+  className: string;
+}) {
   return (
     <>
-      <Tabs.List className="group-button-list flex-shrink-0 " aria-label="">
+      <Tabs.List className={className} aria-label="">
         {tabs.map((tab) => (
           <Tabs.Trigger
-            className="group-button"
+            className="group-button group-button-responsive"
             key={tab.value}
             value={tab.value}
           >

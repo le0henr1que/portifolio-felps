@@ -1,5 +1,5 @@
 .group-button-root {
-  @apply gap-2 flex-shrink-0 flex flex-col items-center justify-between w-full text-center;
+  @apply gap-2 flex-shrink-0 flex flex-col items-start justify-start w-full text-center;
 }
 .group-button-list {
   @apply flex flex-shrink-0  flex-row items-center text-center justify-between w-full mb-[24px];
@@ -13,11 +13,29 @@
   @apply border-r rounded-r-4;
 }
 
+.group-button-list-projects {
+  @apply flex flex-shrink-0  flex-row items-center text-center justify-between w-full mb-[24px];
+}
+
+.group-button-list-projects .group-button:first-child {
+  @apply border-l rounded-l-4;
+}
+
+.group-button-list-projects .group-button:last-child {
+  @apply border-r rounded-r-4;
+}
+
 .group-button {
   @apply text-neutral-900 text-[px] leading-heading-6 font-bold w-full m-0 p-8 px-20 flex justify-center text-center items-center border-[1px] border-l-[0px] border-solid border-neutral-200 whitespace-nowrap;
 }
 .group-button[data-state="active"] {
   @apply bg-brand-600 text-white border-brand-600;
+}
+.group-button[data-state="active"]:hover {
+  @apply bg-brand-800;
+}
+.group-button[data-state="inactive"]:hover {
+  @apply bg-neutral-50 text-neutral-900 border-brand-700;
 }
 
 .group-button-content {

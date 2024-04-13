@@ -44,6 +44,7 @@
 
 .btn-text {
   @apply whitespace-nowrap text-[16px] leading-heading-6 font-medium flex leading-heading-6 font-bold items-center justify-center;
+  transition: color 0.3s ease;
 }
 .btn-text:not(:disabled):hover {
   @apply text-brand-600;

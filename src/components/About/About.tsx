@@ -1,5 +1,8 @@
 import GroupButton from "../Group-button";
 import AboutMe from "./components/about-me";
+import Courses from "./components/courses";
+import Education from "./components/education";
+import Experience from "./components/experience";
 
 const aboutMe = [
   {
@@ -10,17 +13,17 @@ const aboutMe = [
   {
     value: "tab2",
     label: "Educação",
-    content: <>2</>,
+    content: <Education />,
   },
   {
     value: "tab3",
     label: "Experiência",
-    content: <>3</>,
+    content: <Experience />,
   },
   {
     value: "tab6",
     label: "Cursos ",
-    content: <>4</>,
+    content: <Courses />,
   },
 ];
 
@@ -32,7 +35,10 @@ function About() {
       </div>
       <div className="w-full">
         <GroupButton.Root>
-          <GroupButton.List tabs={aboutMe} />
+          <GroupButton.List
+            tabs={aboutMe}
+            className="group-button-list flex-shrink-0 "
+          />
           <GroupButton.Content tabs={aboutMe} />
         </GroupButton.Root>
       </div>

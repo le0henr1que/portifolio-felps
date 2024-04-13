@@ -1,12 +1,13 @@
 import { Link } from "react-scroll";
 import { convertedStyle } from "../../utils/convertedStyle";
+import Burguer from "./components/burguer/Burguer";
 
 function Header() {
   const headerStyle = convertedStyle([
     "w-full flex items-center justify-between mt-[36px] mb-[73px]",
   ]);
   const linkStyle = convertedStyle([
-    "body-medium-md text-current no-underline cursor-pointer",
+    "body-medium-md text-current no-underline cursor-pointer btn-text ",
   ]);
 
   return (
@@ -14,6 +15,7 @@ function Header() {
       <div>
         <img src="./icon.svg" />
       </div>
+      <Burguer />
       <div className="burguer-response flex justify-between gap-[36px]">
         <Link
           activeClass="active"

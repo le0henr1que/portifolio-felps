@@ -7,7 +7,6 @@ import Introduction from "../components/Introduction/Introduction";
 import Projects from "../components/Projects/Projects";
 import Techs from "../components/Techs/Techs";
 import { convertedStyle } from "../utils/convertedStyle";
-import { cursor, useCursor } from "react-cursor";
 
 const screenMain = convertedStyle([
   "main-1 w-full flex justify-center flex-col items-center ",
@@ -20,7 +19,7 @@ const screenMain = convertedStyle([
 ]);
 
 const defaultDiv2 = convertedStyle([
-  "main-2",
+  "main-2 ",
   {
     xs: "",
     sm: "",

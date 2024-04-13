@@ -13,6 +13,9 @@ body {
   @apply flex flex-col items-center rounded-8 border-neutral-100 border-solid border-[1px];
 }
 
+button {
+  transition: all 0.4s ease;
+}
 /* Small devices (landscape phones, 576px and up) */
 
 @media (max-width: 494px) {
@@ -41,6 +44,12 @@ body {
     flex-direction: column;
     align-items: center;
   }
+  .group-button {
+    width: 100% !important;
+  }
+  .card-project-responsive {
+    width: 100% !important;
+  }
 }
 @media (max-width: 576px) {
   .burguer-response {
@@ -50,6 +59,22 @@ body {
     width: 100%;
     padding-left: 14px !important;
     padding-right: 14px !important;
+  }
+
+  #radix-\:R52m\:-trigger-tab1 {
+    width: 100% !important;
+  }
+  #radix-\:R52m\:-trigger-tab2 {
+    width: 100% !important;
+  }
+  #radix-\:R52m\:-trigger-tab3 {
+    width: 100% !important;
+  }
+  #radix-\:R52m\:-trigger-tab4 {
+    width: 100% !important;
+  }
+  #radix-\:R52m\:-trigger-tab6 {
+    width: 100% !important;
   }
 }
 @media (max-width: 992px) {
@@ -61,6 +86,11 @@ body {
   .group-button-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .group-button-list-projects {
+    display: flex;
+    flex-wrap: nowrap !important;
     justify-content: space-between;
   }
   .group-button {
@@ -76,6 +106,7 @@ body {
     flex-direction: column;
     align-items: center;
   }
+
   .footer-responsive {
     flex-direction: column;
     align-items: center;
@@ -121,6 +152,19 @@ body {
     width: 100%;
     justify-content: center;
   }
+  .card-project-responsive {
+    width: 45%;
+  }
+  .group-button {
+    border: 1px solid #9d9aad !important;
+    width: 100%;
+  }
+  .cord-responsive-corses {
+    width: 100% !important;
+  }
+  .card-experience-responsive {
+    flex-direction: column !important;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -132,12 +176,20 @@ body {
   .main-2 {
     width: 1112px;
     margin: 0 auto;
-    padding-left: 40px;
-    padding-right: 40px;
+    /* padding-left: 40px;
+    padding-right: 40px; */
+  }
+  .group-button {
+    border: 1px solid #9d9aad !important;
+    width: 100%;
   }
 }
 
 /* Extra large devices (large desktops, 1600px and up) */
 @media (min-width: 1600px) {
   /* Insira seu CSS aqui */
+  .group-button {
+    border: 1px solid #9d9aad !important;
+    width: 100%;
+  }
 }

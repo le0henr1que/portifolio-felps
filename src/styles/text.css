@@ -103,7 +103,10 @@
   @apply text-[12px] font-semibold;
 }
 .body-semibold-md {
-  @apply text-[12px] font-semibold;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: 24px !important;
+  @apply text-[16px] font-semibold;
 }
 .body-semibold-sm {
   @apply text-[12px] font-semibold;
