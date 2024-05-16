@@ -25,7 +25,7 @@ const defaultDiv2 = convertedStyle([
     sm: "",
     md: "",
     lg: "w-full",
-    xl: "w-[1600px]",
+    xl: "w-[1200px]",
   },
 ]);
 
@@ -47,7 +47,7 @@ export default function Home() {
         </div>
         <ContactMe />
         <div className={defaultDiv2}>
-          <div className="max-w-[1600px]">
+          <div className="max-w-[1200px]">
             <Footer />
           </div>
         </div>

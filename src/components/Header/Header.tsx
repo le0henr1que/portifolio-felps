@@ -12,7 +12,7 @@ function Header() {
 
   return (
     <div id="header" className={headerStyle}>
-      <div className="w-[1600px] flex items-center justify-between">
+      <div className="w-[1200px] flex items-center justify-between">
         <div>
           <img src="./icon.svg" className="w-[78px] h-[29px]" />
         </div>
