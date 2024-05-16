@@ -1,5 +1,5 @@
 .card {
-  @apply flex whitespace-nowrap bg-brand-100 text-brand-600 rounded-4 gap-[4px] p-8 px-16 justify-center items-center w-[auto] h-[40px];
+  @apply flex whitespace-nowrap text-brand-500 rounded-4 gap-[4px] p-8 px-16 justify-center items-center w-[auto] h-[40px] border border-brand-500 border-t-[1px] shadow-customDark;
 }
 .scroll-container {
   width: 100%;

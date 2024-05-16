@@ -1,23 +1,23 @@
 /* configuration primary button */
 .btn-primary {
-  @apply whitespace-nowrap flex text-[16px] leading-heading-6 font-bold items-center justify-center p-12 px-20 rounded-4 bg-brand-600 text-neutral-0 w-full;
+  @apply whitespace-nowrap flex text-[16px] leading-heading-6 font-bold items-center justify-center p-12 px-20 rounded-4 bg-brand-500 text-neutral-0 w-full;
 }
 .btn-primary:not(:disabled):hover {
-  @apply bg-brand-800;
+  @apply bg-brand-300;
 }
 .btn-primary:disabled {
-  @apply bg-brand-400 cursor-not-allowed;
+  @apply bg-brand-700 cursor-not-allowed;
 }
 
 .btn-primary-outlined {
-  @apply whitespace-nowrap flex text-[16px] leading-heading-6 font-bold items-center justify-center p-12 px-20 rounded-4 text-brand-600 w-full border-[1px] border-brand-600;
+  @apply whitespace-nowrap flex text-[16px] leading-heading-6 font-bold items-center justify-center p-12 px-20 rounded-4 text-brand-500 w-full border-[1px] border-brand-500;
 }
 
 .btn-primary-outlined:not(:disabled):hover {
-  @apply bg-brand-100;
+  @apply bg-brand-900;
 }
 .btn-primary-outlined:disabled {
-  @apply border-[1px] border-brand-400 text-brand-400 cursor-not-allowed;
+  @apply border-[1px] border-brand-500 text-brand-400 cursor-not-allowed;
 }
 
 /* configuration secondary button */
@@ -32,7 +32,7 @@
 }
 
 .btn-secondary-outlined {
-  @apply whitespace-nowrap flex text-[16px] leading-heading-6 font-bold items-center justify-center p-12 px-20 rounded-4 text-neutral-900 w-full border-[1px] border-neutral-200;
+  @apply whitespace-nowrap flex text-[16px] leading-heading-6 font-bold items-center justify-center p-12 px-20 rounded-4 text-white w-full border-[1px] border-neutral-200;
 }
 
 .btn-secondary-outlined:not(:disabled):hover {

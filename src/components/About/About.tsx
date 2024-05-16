@@ -31,7 +31,13 @@ function About() {
   return (
     <div id="about" className="about-responsive flex gap-[36px] mt-[64px]">
       <div>
-        <div className="about-image-responsive w-[405px] h-[424px] bg-[#D9D9D9] rounded-8"></div>
+        <div className="about-image-responsive w-[405px] h-[424px] bg-[#D9D9D9] rounded-8">
+          <img
+            src="/felps.png"
+            alt="about-me"
+            className="about-image-responsive w-[405px] h-[424px]  rounded-8"
+          />
+        </div>
       </div>
       <div className="w-full">
         <GroupButton.Root>

@@ -1,4 +1,4 @@
-import FormContactMe from "./components/form-contact-me/idenx";
+import FormContactMe from "./components/form-contact-me";
 
 function ContactMe() {
   return (
@@ -7,7 +7,7 @@ function ContactMe() {
       className="w-full mt-[90px] h-[605px] bg-brand-600 flex justify-center items-center"
     >
       <div
-        className="w-[1112px] h-full bg-center bg-no-repeat bg-cover flex justify-between items-center "
+        className="contact-me w-[1112px] h-full bg-center bg-no-repeat bg-cover flex justify-between items-center "
         // style={{ backgroundImage: "url('/')" }}
       >
         <div className="w-[467px] flex flex-col gap-[16px]">

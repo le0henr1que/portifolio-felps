@@ -25,7 +25,7 @@ const defaultDiv2 = convertedStyle([
     sm: "",
     md: "",
     lg: "w-full",
-    xl: "w-[1112px]",
+    xl: "w-[1600px]",
   },
 ]);
 
@@ -37,20 +37,17 @@ export default function Home() {
   return (
     <>
       <div className={screenMain}>
+        <Header />
         <div className={defaultDiv2}>
-          <Header />
-
           <Introduction />
 
           <Techs />
           <About />
-          <Projects />
+          {/* <Projects /> */}
         </div>
-
-        {/*<ContactMe />*/}
-
+        <ContactMe />
         <div className={defaultDiv2}>
-          <div className="max-w-[1112px]">
+          <div className="max-w-[1600px]">
             <Footer />
           </div>
         </div>

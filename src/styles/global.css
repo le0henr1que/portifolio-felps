@@ -7,6 +7,14 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Red Hat Display", sans-serif;
+  background-color: #000916;
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.1) 1px,
+    transparent 1px
+  );
+  background-size: 35px 35px;
+  color: #fff;
 }
 
 .grid {
@@ -174,7 +182,7 @@ button {
     width: 100%;
   }
   .main-2 {
-    width: 1112px;
+    width: 1600px;
     margin: 0 auto;
     /* padding-left: 40px;
     padding-right: 40px; */

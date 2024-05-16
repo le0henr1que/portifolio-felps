@@ -16,6 +16,7 @@ module.exports = {
 
       boxShadow: {
         custom: "0px 8px 12px 0px rgba(207, 215, 226, 0.60)",
+        customDark: "0px 0px 3.5px 0px rgba(73, 175, 249, 0.76)",
       },
       animation: {
         float: "float 3s ease-in-out infinite",
@@ -31,15 +32,15 @@ module.exports = {
         xl: "1600px",
       },
       colors: {
-        "brand-100": "#d7eeff",
-        "brand-200": "#bde4ff",
+        "brand-100": "#DFE1E7",
+        "brand-200": "#007293",
         "brand-300": "#9ccaeb",
-        "brand-400": "#7ab3dd",
-        "brand-500": "#59a0d3",
-        "brand-600": "#3083bf",
-        "brand-700": "#2b75ab",
-        "brand-800": "#256594",
-        "brand-900": "#1e5379",
+        "brand-400": "#00A2D0",
+        "brand-500": "#00B5E8",
+        "brand-600": "#4DBDEA",
+        "brand-700": "#A1D6F1",
+        "brand-800": "#C6E4F6",
+        "brand-900": "#E4F2FB",
         "brand-1000": "#153b55",
         "error-dark": "#dc2626",
         "error-darkest": "#b91c1c",

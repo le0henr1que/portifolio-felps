@@ -4,9 +4,7 @@ function AboutMe() {
       <div className="w-full gap-[17px] flex flex-col justify-start items-start text-start">
         <div className="w-full flex justify-between">
           <div className="flex flex-col">
-            <div className="secondary-heading-lg text-neutral-1000">
-              Felipe Souza
-            </div>
+            <div className="secondary-heading-lg text-white">Felipe Souza</div>
             <div className="body-regular-lg">UX/UI Designer</div>
           </div>
           <div className="flex gap-[4px]">

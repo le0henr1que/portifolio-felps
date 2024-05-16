@@ -10,16 +10,12 @@ function CardExperiences({ title, subtitle, logo, description }) {
 
         <div className="flex flex-col text-start gap-8">
           <div>
-            <div className="secondary-heading-sm text-neutral-1000">
-              {title}
-            </div>
+            <div className="secondary-heading-sm text-white">{title}</div>
             <div className="body-semibold-md text-brand-600">{subtitle}</div>
           </div>
 
           <div>
-            <div className="body-regular-md text-neutral-800">
-              {description}
-            </div>
+            <div className="body-regular-md text-white">{description}</div>
           </div>
         </div>
       </div>
