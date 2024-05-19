@@ -79,6 +79,7 @@ button {
 @media (max-width: 494px) {
   .responsive-form-text {
     width: 100% !important;
+    text-align: center;
   }
   #footer {
     display: flex;

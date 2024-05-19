@@ -98,7 +98,7 @@ export default function Home() {
               <div className="secondary-heading-xl text-white title-responsive">
                 Meus <span className="text-brand-500">Projetos</span>
               </div>
-              <div className="body-regular-lg">
+              <div className="body-regular-lg responsive-form-text">
                 Explore essa seleção de projetos pessoais e profisisonais
               </div>
             </div>
