@@ -145,8 +145,42 @@ button {
   #radix-\:R52m\:-trigger-tab6 {
     width: 100% !important;
   }
+  #projects div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .title-responsive {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 12px;
+  }
+  .button-responsive {
+    margin-top: 16px;
+  }
 }
 @media (max-width: 992px) {
+  .responsive-list {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+  }
+  .responsive-form {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    align-items: center;
+    justify-content: center;
+  }
+  .responsive-form-input {
+    width: 100%;
+  }
+  .responsive-form div {
+    text-align: center;
+  }
   .main-2 {
     width: 100%;
     padding-left: 14px !important;
@@ -193,6 +227,10 @@ button {
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 1240px) {
   /* Insira seu CSS aqui */
+  #projects {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
   #header {
     padding-left: 40px;
     padding-right: 40px;

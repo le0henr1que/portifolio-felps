@@ -95,14 +95,14 @@ export default function Home() {
         <div className="w-[1200px]" id="projects">
           <div className="w-full flex justify-between items-start">
             <div className=" justify-start">
-              <div className="secondary-heading-xl text-white">
+              <div className="secondary-heading-xl text-white title-responsive">
                 Meus <span className="text-brand-500">Projetos</span>
               </div>
               <div className="body-regular-lg">
                 Explore essa seleção de projetos pessoais e profisisonais
               </div>
             </div>
-            <div className="w-[202px]">
+            <div className="w-[202px] button-responsive">
               <a href="/projetos">
                 <button className="btn-primary-outlined large">
                   Ver todos os projetos
@@ -174,7 +174,7 @@ export default function Home() {
       </div>
       <div className={screenMain} id="contect-me">
         <div className={defaultDiv2}>
-          <div className="w-full flex justify-between mt-[73px]">
+          <div className="w-full flex justify-between mt-[73px] responsive-form">
             <div>
               <div className="secondary-heading-xl mb-[16px]">
                 Vamos trabalhar <span className="text-brand-500">juntos!</span>
@@ -185,8 +185,8 @@ export default function Home() {
                 lado. Sou todo ouvidos e ansioso para iniciarmos essa jornada
                 juntos!
               </div>
-              <div className="mt-[38px]">
-                <ul className="body-regular-lg flex flex-col gap-[34px]">
+              <div className="mt-[38px]  w-full">
+                <ul className="body-regular-lg flex flex-col gap-[34px] responsive-list">
                   <a
                     href="https://www.linkedin.com/in/felipesouza12/"
                     target="_blank"
@@ -214,75 +214,72 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            <div>
-              <div>
-                <div className="w-[471px]">
-                  <div className="secondary-heading-sm mb-[16px]">
-                    Entre em contato comigo!
-                  </div>
 
-                  <form
-                    className="mt-4 flex flex-col gap-[20px] "
-                    onSubmit={handleSubmit}
-                  >
-                    <div>
-                      <input
-                        type="text"
-                        id="nome"
-                        name="name"
-                        required
-                        placeholder="Digite seu nome"
-                        disabled={messageSent}
-                      />
-                    </div>
-
-                    <div>
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        required
-                        placeholder="Digite seu email"
-                        disabled={messageSent}
-                      />
-                    </div>
-
-                    <div>
-                      <input
-                        type="text"
-                        id="assunto"
-                        name="subject"
-                        required
-                        placeholder="Digite o assunto"
-                        disabled={messageSent}
-                      />
-                    </div>
-
-                    <div>
-                      <textarea
-                        id="mensagem"
-                        name="message"
-                        rows={5}
-                        required
-                        placeholder="Sua mensagem..."
-                        disabled={messageSent}
-                      ></textarea>
-                    </div>
-
-                    <button
-                      type="submit"
-                      disabled={messageSent}
-                      className="large btn-primary"
-                    >
-                      {loading
-                        ? "Enviando..."
-                        : messageSent
-                        ? "Mensagem enviada com sucesso"
-                        : "Enviar"}
-                    </button>
-                  </form>
-                </div>
+            <div className="w-[471px] responsive-form-input">
+              <div className="secondary-heading-sm mb-[16px]">
+                Entre em contato comigo!
               </div>
+
+              <form
+                className="mt-4 flex flex-col gap-[20px] "
+                onSubmit={handleSubmit}
+              >
+                <div>
+                  <input
+                    type="text"
+                    id="nome"
+                    name="name"
+                    required
+                    placeholder="Digite seu nome"
+                    disabled={messageSent}
+                  />
+                </div>
+
+                <div>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="Digite seu email"
+                    disabled={messageSent}
+                  />
+                </div>
+
+                <div>
+                  <input
+                    type="text"
+                    id="assunto"
+                    name="subject"
+                    required
+                    placeholder="Digite o assunto"
+                    disabled={messageSent}
+                  />
+                </div>
+
+                <div>
+                  <textarea
+                    id="mensagem"
+                    name="message"
+                    rows={5}
+                    required
+                    placeholder="Sua mensagem..."
+                    disabled={messageSent}
+                  ></textarea>
+                </div>
+
+                <button
+                  type="submit"
+                  disabled={messageSent}
+                  className="large btn-primary"
+                >
+                  {loading
+                    ? "Enviando..."
+                    : messageSent
+                    ? "Mensagem enviada com sucesso"
+                    : "Enviar"}
+                </button>
+              </form>
             </div>
           </div>
         </div>
