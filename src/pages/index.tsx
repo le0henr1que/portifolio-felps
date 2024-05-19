@@ -176,10 +176,10 @@ export default function Home() {
         <div className={defaultDiv2}>
           <div className="w-full flex justify-between mt-[73px] responsive-form">
             <div>
-              <div className="secondary-heading-xl mb-[16px]">
+              <div className="secondary-heading-xl mb-[16px] responsive-form-text">
                 Vamos trabalhar <span className="text-brand-500">juntos!</span>
               </div>
-              <div className="body-regular-lg w-[443.926px]">
+              <div className="body-regular-lg w-[443.926px] responsive-form-text">
                 Pronto para transformar ideias em realidade? Seja um projeto,
                 uma colaboração ou apenas para dizer oi, deixe uma mensagem ao
                 lado. Sou todo ouvidos e ansioso para iniciarmos essa jornada
