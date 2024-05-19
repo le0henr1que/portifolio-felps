@@ -1,10 +1,10 @@
 function CardExperiences({ title, subtitle, logo, description }) {
   return (
     <>
-      <div className="gap-[16px] flex flex-col items-start text-start p-[24px] border-[1px] rounded-8 border-neutral-100">
+      <div className="flex flex-col items-start space-y-4 p-6 flex-grow self-stretch  border-[1px] rounded-8 border-neutral-100 w-[50%] card-xp">
         <div>
-          <div className="w-[136px] h-[46px]">
-            <img className="w-[136px] h-[46px]" src={logo} />
+          <div>
+            <img src={logo} className="mb-[16px]" />
           </div>
         </div>
 
@@ -15,7 +15,7 @@ function CardExperiences({ title, subtitle, logo, description }) {
           </div>
 
           <div>
-            <div className="body-regular-md text-white">{description}</div>
+            <div className="body-regular-md text-white ">{description}</div>
           </div>
         </div>
       </div>

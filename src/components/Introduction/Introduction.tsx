@@ -17,8 +17,9 @@ function Introduction() {
           <div className="body-medium-xxl text-brand-600 mb-[4px]">
             UX/UI Designer
           </div>
-          <div className="primary-heading-xl text-white mb-[8px]">
-            Olá, meu nome é <span className="text-brand-600">Felipe Souza</span>
+          <div className="primary-heading-lg text-white mb-[8px]">
+            Olá, meu nome é <br></br>
+            <span className="text-brand-600">Felipe Souza</span>
           </div>
           <div className="tex-introduction-responsive text-white body-regular-lg">
             UX/UI Designer pleno, com experiência em softwares personalizados,

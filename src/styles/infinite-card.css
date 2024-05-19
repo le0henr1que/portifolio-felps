@@ -1,4 +1,5 @@
 .card {
+  cursor: default !important;
   @apply flex whitespace-nowrap text-brand-500 rounded-4 gap-[4px] p-8 px-16 justify-center items-center w-[auto] h-[40px] border border-brand-500 border-t-[1px] shadow-customDark;
 }
 .scroll-container {
@@ -9,10 +10,11 @@
 }
 
 .scroll-content {
+  cursor: default !important;
   display: flex;
   width: max-content;
   gap: 16px !important;
-  animation: scroll-left 20s linear infinite;
+  animation: scroll-left 30s linear infinite;
 }
 
 .scroll-content::before,
@@ -32,9 +34,9 @@
   left: 100%;
 }
 
-.scroll-content:hover {
+/* .scroll-content:hover {
   animation-play-state: paused;
-}
+} */
 
 @keyframes scroll-left {
   0% {

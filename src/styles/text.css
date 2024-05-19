@@ -1,5 +1,9 @@
 .secondary-heading-xl {
-  @apply text-[32px] font-bold;
+  font-size: 32px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: 50px !important;
+  @apply text-[32px];
 }
 
 .secondary-heading-lg {
@@ -52,7 +56,7 @@
 .body-regular-lg {
   line-height: 26px;
   font-weight: 400 !important;
-  line-height: 30px !important;
+  line-height: 26px !important;
   @apply text-[18px] font-[400];
 }
 

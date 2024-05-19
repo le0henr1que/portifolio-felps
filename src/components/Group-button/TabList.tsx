@@ -18,6 +18,7 @@ export default function TabList({
       <Tabs.List className={className} aria-label="">
         {tabs.map((tab) => (
           <Tabs.Trigger
+            id="group-button"
             className="group-button group-button-responsive"
             key={tab.value}
             value={tab.value}

@@ -7,7 +7,7 @@ function AboutMe() {
             <div className="secondary-heading-lg text-white">Felipe Souza</div>
             <div className="body-regular-lg">UX/UI Designer</div>
           </div>
-          <div className="flex gap-[4px]">
+          {/* <div className="flex gap-[4px]">
             <div className="flex items-center gap-[4px]">
               <a
                 href="https://www.behance.net/felipedasilv13"
@@ -24,7 +24,7 @@ function AboutMe() {
                 <img src="/linkedin-icon-brand.svg" />
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="body-regular-lg">
           Olá, sou Felipe, 21 anos, de Osasco/SP. Sou um UX/UI Designer focado
