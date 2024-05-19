@@ -32,7 +32,7 @@ module.exports = {
         xl: "1600px",
       },
       colors: {
-        "brand-100": "#DFE1E7",
+        "brand-100": "#005168",
         "brand-200": "#007293",
         "brand-300": "#9ccaeb",
         "brand-400": "#00A2D0",
